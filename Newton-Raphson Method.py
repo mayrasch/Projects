@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 25 13:04:51 2026
-
-@author: mayra
-"""
 
 # Newton-Raphson Method
 
@@ -43,6 +38,7 @@ plt.xlabel('Iteration Number')
 plt.ylabel('|f(c)|')
 plt.title('Absolute Error vs Iteration Number (Newton-Raphson Method)')
 plt.show()
+
 
 
 
