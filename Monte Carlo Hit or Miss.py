@@ -56,7 +56,7 @@ for x_value, y_value in xy_pairs:
 print("\nNumber of points below f(x):", n_below)
     
 A=A_rectangle*(n_below/n)
-print("\nThe approximate integral is of f(x) over [a,b] is: ",A)
+print("\nThe approximate integral of f(x) over [a,b] is: ",A)
 
 x_f = np.linspace(a, b, 400)
 y_f = f(x_f)
